@@ -4,6 +4,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(monte_carlo_pi)
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Necessary for clang-tidy
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
